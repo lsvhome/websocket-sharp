@@ -1,8 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="..\..\..\common.props" />
     <PropertyGroup>
+        <ProjectGuid>{5AD8ED10-BAC2-4642-A45B-813AC3CDC66B}</ProjectGuid>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <LangVersion>7.1</LangVersion>
+        <StyleCopEnabled>false</StyleCopEnabled>
     </PropertyGroup>
     <PropertyGroup>
         <PackageId>WebSocketSharp.CustomHeaders.Standard</PackageId>
