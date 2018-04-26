@@ -1,7 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-<!--
-    <Import Project="$(SolutionDir)\common.props" />
--->
+    <Import Project="$(SolutionDir)common.props" />
     <PropertyGroup>
         <ProjectGuid>{5AD8ED10-BAC2-4642-A45B-813AC3CDC66B}</ProjectGuid>
         <TargetFramework>netstandard2.0</TargetFramework>
