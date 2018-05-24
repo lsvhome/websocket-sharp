@@ -5,6 +5,7 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <LangVersion>7.1</LangVersion>
         <StyleCopEnabled>false</StyleCopEnabled>
+        <ReleaseVersion>0.0.2</ReleaseVersion>
     </PropertyGroup>
     <PropertyGroup>
         <PackageId>WebSocketSharp.CustomHeaders.Standard</PackageId>
