@@ -1551,8 +1551,14 @@ namespace WebSocketSharp
 
         e = _messageEventQueue.Dequeue ();
       }
+#if NETSTANDARD2_0
+      System.Threading.Tasks.Task.Run(() => {
+         _message(e);
+      });
+#else
 
       _message.BeginInvoke (e, ar => _message.EndInvoke (ar), null);
+#endif
     }
 
     private bool ping (byte[] data)
